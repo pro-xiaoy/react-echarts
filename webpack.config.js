@@ -10,7 +10,7 @@ module.exports = (env, argv) => {
     entry: ["babel-polyfill", path.join(__dirname, "./src/index.js")],
     output: {
       // 入口文件
-      filename: "main.js",
+      filename: "index.js",
     },
     module: {
       rules: [

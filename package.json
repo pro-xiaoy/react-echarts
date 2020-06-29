@@ -1,15 +1,15 @@
 {
-  "name": "react-compontents",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "xiaoy-react-echarts",
+  "version": "0.0.1",
+  "description": "React author Xiaoy of ECharts component",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "pro-xiaoy",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
