@@ -1,6 +1,6 @@
 {
   "name": "xiaoy-react-echarts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React author Xiaoy of ECharts component",
   "main": "dist/index.js",
   "scripts": {
@@ -8,6 +8,10 @@
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "transpile": "babel src -d dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pro-xiaoy/react-echarts"
   },
   "keywords": [],
   "author": "pro-xiaoy",

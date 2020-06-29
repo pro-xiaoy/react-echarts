@@ -1,4 +1,5 @@
 # React-charts
+
 > 基于echarts和react的组建应用
 [ECharts](https://github.com/ecomfe/echarts) Components for React
 ## Installation
@@ -18,6 +19,9 @@ Name|Type|Default|Description
 options|object||ECharts图表的配置项和数据
 style|object|styles|可选，样式设置
 loading|boolean|false|可选，echarts自带的loading状态
+
+## Github
+[react-echarts](https://github.com/pro-xiaoy/react-echarts)
 
 ## Thanks
 [从0开始发布一个react到npm](https://zhuanlan.zhihu.com/p/37366401)
