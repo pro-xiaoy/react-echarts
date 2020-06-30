@@ -1,24 +1,7 @@
 // import React, { Component } from "react";
 // import ReactDOM from "react-dom";
-// import Echarts from './echarts'
-// const option = {
-//   title: {
-//       text: 'ECharts 入门示例'
-//   },
-//   tooltip: {},
-//   xAxis: {
-//       data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
-//   },
-//   yAxis: {},
-//   series: [{
-//       name: '销量',
-//       type: 'bar',
-//       data: [5, 20, 36, 10, 10, 20]
-//   }]
-// }
-// ReactDOM.render(<div style={{width: 600, height: 600}}><Echarts options={option} loading={true} /></div>     , document.getElementById("root"));
-// // export default Echarts
+// import Content from './content'
+// ReactDOM.render(<div><Content /></div>, document.getElementById("root"));
 
 import ECharts from './echarts';
-
 export default ECharts;

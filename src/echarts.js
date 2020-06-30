@@ -41,6 +41,8 @@ const Echarts = (props) => {
   useEffect(() => {
     charts.current = echarts.init(container.current);
     charts.current.setOption(options);
+    const resize = throttle(windowResize, 200)
+    window.addEventListener('resize', throttle(resize, 150))
   }, []);
 
   useEffect(() => {
@@ -50,6 +52,12 @@ const Echarts = (props) => {
   useEffect(() => {
     loading ? charts.current.showLoading() : charts.current.hideLoading();
   }, [loading]);
+
+  const windowResize = () => {
+    if(charts) {
+      charts.resize();
+    }
+  }
 
   return (
     <React.Fragment>
